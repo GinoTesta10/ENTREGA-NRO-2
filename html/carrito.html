@@ -17,9 +17,123 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="../styles/styles.css" />
-    <title>Document</title>
+    <title>Carrito</title>
   </head>
   <body>
+    <div class="container-fluid container-global row g-0">
+      <header class="header">
+        <!-- H1 DESKTOP -->
+        <a class="h1-desktop" href="../html/home.html">El Bajon</a>
+        <!-- H1 DESKTOP -->
+        <!-- NAV BAR-DESKTOP -->
+        <ul class="nav nav-pills nav-desktop">
+          <li class="nav-item">
+            <a class="nav-link" href="../html/register.html">registro</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../html/login.html">login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../html/menu.html">menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../html/carrito.html">carrito</a>
+          </li>
+        </ul>
+        <!-- NAV BAR-DESKTOP -->
+
+        <div class="d-flex div-header">
+          <div class="p-2 w-100"><h1>Carrito de compras</h1></div>
+          <div class="p-2 flex-shrink-1">
+            <div class="dropdown menu-burguer-movile">
+              <button
+                class="btn btn-secondary dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              ></button>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="../html/home.html">Inicio</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../html/login.html">login</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../html/register.html"
+                    >registro</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../html/menu.html">menu</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <h4>Estas a un paso del cumplir el Bajon, !que esperas¡</h4>
+        <!-- CARD CARRITO -->
+        <div class="card w-75 card-carrito">
+          <div class="card-body">
+            <section class="title-carrito">
+              <h5 class="card-title">
+                3
+                <h6>Productos en espera</h6>
+              </h5>
+            </section>
+            <p class="card-text">
+              With supporting text below as a natural lead-in to additional
+              content.
+            </p>
+            <a href="#" class="btn btn-primary">Button</a>
+          </div>
+        </div>
+        <!-- CARDS PRODUCTOS -->
+        <section class="section-cards-carrito">
+          <div class="card" style="width: 18rem">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </section>
+        <!-- CARDS PRODUCTOS -->
+      </main>
+      <footer class="footer d-flex justify-content-evenly">
+        <i class="fa-brands fa-square-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </footer>
+    </div>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
