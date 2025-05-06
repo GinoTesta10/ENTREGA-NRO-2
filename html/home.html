@@ -17,6 +17,12 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="../styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Rowdies:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
 
     <title>El Bajon</title>
   </head>
@@ -29,16 +35,16 @@
         <!-- NAV BAR-DESKTOP -->
         <ul class="nav nav-pills nav-desktop">
           <li class="nav-item">
-            <a class="nav-link" href="../html/register.html">registro</a>
+            <a class="nav-link" href="../html/register.html">Registro</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../html/login.html">login</a>
+            <a class="nav-link" href="../html/login.html">Iniciar sesion</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../html/menu.html">menu</a>
+            <a class="nav-link" href="../html/menu.html">Menu</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../html/carrito.html">carrito</a>
+            <a class="nav-link" href="../html/carrito.html">Carrito</a>
           </li>
         </ul>
         <!-- NAV BAR-DESKTOP -->
@@ -46,29 +52,37 @@
         <div class="d-flex div-header">
           <div class="p-2 w-100"><h1>El Bajon</h1></div>
           <div class="p-2 flex-shrink-1">
-            <div class="dropdown menu-burguer-movile">
+            <div class="dropdown">
               <button
-                class="btn btn-secondary dropdown-toggle"
+                class="btn btn-secondary dropdown-toggle button-menu"
                 type="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               ></button>
-              <ul class="dropdown-menu">
+              <ul class="dropdown-menu drop-menu">
                 <li>
-                  <a class="dropdown-item" href="../html/carrito.html"
-                    >carrito</a
+                  <a
+                    class="dropdown-item items-drop"
+                    href="../html/carrito.html"
+                    >Carrito</a
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="../html/login.html">login</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="../html/register.html"
-                    >registro</a
+                  <a class="dropdown-item items-drop" href="../html/login.html"
+                    >Iniciar sesion</a
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="../html/menu.html">menu</a>
+                  <a
+                    class="dropdown-item items-drop"
+                    href="../html/register.html"
+                    >Registro</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item items-drop" href="../html/menu.html"
+                    >Menu</a
+                  >
                 </li>
               </ul>
             </div>
@@ -80,70 +94,91 @@
         <section class="section-bio">
           <div class="card text-center card-bio">
             <div class="card-body">
-              <h3 class="card-title">El Bajon que vos deseas!</h3>
+              <h3 class="card-title h3-bio-home">El Bajon que vos deseas!</h3>
               <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
-                sit sint molestias adipisci debitis atque quae saepe nihil dolor
-                facere.
+                Bienvenido a El bajon, te encontraras con comidas de calidad
+                listas para cumplirte el capricho.
               </p>
             </div>
           </div>
         </section>
         <!-- CARD PRESENTACION -->
-        <h5 class="h5-promos">Promos de usuarios registrados!</h5>
+
         <!-- CARTAS PROMOS -->
         <section class="section-promos">
-          <div class="card card-promos" style="width: 18rem">
+          <!-- CARD 1 -->
+          <!-- CARD 1 -->
+          <!-- CARD 1 -->
+          <h5 class="h5-promos">Promos de usuarios registrados!</h5>
+          <div class="card cards" style="width: 18rem">
+            <img
+              src="../assets/Flan-casero-argentino.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body cards card-promos">
+              <h5 class="card-title">Flan Casero</h5>
+              <h3><s>4.000</s> - $3.000</h3>
+              <p class="card-text card-text">
+                Acompañado con dulce de leche, crema o mixto.
+              </p>
+              <a href="#" class="btn btn-primary button-card">Agregar</a>
+            </div>
+          </div>
+          <!-- CARD 1 -->
+          <!-- CARD 1 -->
+          <!-- CARD 1 -->
+
+          <!-- CARD 2 -->
+          <!-- CARD 2-->
+          <!-- CARD 2-->
+          <div class="card cards" style="width: 18rem">
+            <img
+              src="../assets/sanguche-mila.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Sandguche de milanesa completo</h5>
+              <h3><s>$9.000</s> - $7.500</h3>
+              <p class="card-text card-text">
+                Milanesa de pollo o carne con lechuga, tomate, jamon, queso y
+                mayonesa
+              </p>
+              <a href="#" class="btn btn-primary button-card">Agregar</a>
+            </div>
+          </div>
+          <!-- CARD 2 -->
+          <!-- CARD 2-->
+          <!-- CARD 2-->
+
+          <!-- CARD 3 -->
+          <!-- CARD 3-->
+          <!-- CARD 3-->
+          <div class="card cards" style="width: 18rem">
             <img
               src="../assets/6654b14601ee7.jpg"
               class="card-img-top"
               alt="..."
             />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+              <h5 class="card-title">Hamburguesa Triple</h5>
+              <h3><s>13.000</s> - $11.500</h3>
+              <p class="card-text card-text">
+                3 medallones de carne con cheddar, panceta y salsa "El Bajon"
               </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="#" class="btn btn-primary button-card">Agregar</a>
             </div>
           </div>
-          <div class="card card-promos" style="width: 18rem">
-            <img
-              src="../assets/6654b14601ee7.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-          <div class="card card-promos" style="width: 18rem">
-            <img
-              src="../assets/6654b14601ee7.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
+          <!-- CARD 3 -->
+          <!-- CARD 3-->
+          <!-- CARD 3-->
         </section>
         <!-- CARTAS PROMOS -->
       </main>
       <footer class="footer d-flex justify-content-evenly">
-        <i class="fa-brands fa-square-facebook"></i>
-        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-square-facebook icon-footer"></i>
+        <i class="fa-brands fa-instagram icon-footer"></i>
       </footer>
     </div>
 

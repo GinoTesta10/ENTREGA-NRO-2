@@ -3,48 +3,123 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* MAQUETADO GLOBAL */
+/* MAQUETADO GLOBAL */
+/* MAQUETADO GLOBAL */
 .container-global {
   display: grid;
   grid-column: 1fr 4fr 1fr;
   min-height: 100%;
+  font-family: "Rowdies", sans-serif;
 }
 .header {
-  background-color: aqua;
+  background-color: #74512d;
+  color: #feba17;
+  text-shadow: 5px 2px 3px rgba(14, 12, 12, 0.52);
+  border-bottom: 2px solid#feba17;
 }
 .main {
-  background-color: brown;
+  background-color: #4e1f00;
   min-height: 100vh;
+  color: #f2e2b1;
 }
 .footer {
-  background-color: tomato;
+  background-color: #feba17;
   height: 50px;
   padding-top: 20px;
-  border-top: 2px solid black;
+  border-top: 2px solid #f2e2b1;
   width: 100%;
+  box-shadow: 0px -6px 17px -11px rgba(0, 0, 0, 0.84);
+  -webkit-box-shadow: 0px -6px 17px -11px rgba(0, 0, 0, 0.84);
+  -moz-box-shadow: 0px -6px 17px -11px rgba(0, 0, 0, 0.84);
 }
+
+.icon-footer {
+  color: #4e1f00;
+}
+
+.cards {
+  background-color: #74512d;
+  color: #feba17;
+}
+
+.card-text {
+  color: #f2e2b1;
+}
+
+.button-card {
+  background-color: #4e1f00;
+  color: #feba17;
+  border: none;
+}
+.button-menu {
+  color: #feba17;
+  background-color: #4e1f00;
+  border: none;
+}
+
+.drop-menu {
+  background-color: #74512d;
+}
+.items-drop {
+  color: #feba17;
+}
+
+/* MAQUETADO GLOBAL */
+/* MAQUETADO GLOBAL */
+/* MAQUETADO GLOBAL */
+
+/* HOME.HTML STYLES */
+/* HOME.HTML STYLES */
+/* HOME.HTML STYLES */
 
 .card-bio {
   border: none;
-  background-color: brown;
+  background-color: #4e1f00;
+  color: #f2e2b1;
+}
+.h3-bio-home {
+  background-color: #74512d;
+  box-shadow: 0px 0px 20px -3px rgba(241, 217, 43, 0.75);
+  -webkit-box-shadow: 0px 0px 20px -3px rgba(241, 217, 43, 0.75);
+  -moz-box-shadow: 0px 0px 20px -3px rgba(241, 217, 43, 0.75);
 }
 
 .section-bio {
-  border-bottom: 2px solid black;
+  border-bottom: 2px transparent;
+  box-shadow: 0px 10px 11px -10px rgba(0, 0, 0, 0.46);
+  -webkit-box-shadow: 0px 10px 11px -10px rgba(0, 0, 0, 0.46);
+  -moz-box-shadow: 0px 10px 11px -10px rgba(0, 0, 0, 0.46);
 }
 
 .section-promos {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  margin-top: 12px;
+  margin-bottom: 16px;
 }
 
+.h5-promos {
+  background-color: #74512d;
+  border-style: groove;
+}
+
+/* HOME.HTML STYLES */
+/* HOME.HTML STYLES */
+/* HOME.HTML STYLES */
+
+/* NAVBAR DESKTOP STYLES */
 .nav-desktop {
   display: none;
 }
 .h1-desktop {
   display: none;
 }
+/* NAVBAR DESKTOP STYLES */
 
+/* REGISTRO.HTML STYLE */
+/* REGISTRO.HTML STYLE */
 /* REGISTRO.HTML STYLE */
 .h3-register {
   display: flex;
@@ -52,8 +127,119 @@
 }
 .form-register {
   width: 75%;
+  margin-top: 20px;
 }
-/* RESPONSIVE */
+.button-card-register {
+  background-color: #feba17;
+  color: #4e1f00;
+  border: none;
+}
+.button-card-register:hover {
+  background-color: #f2e2b1;
+  color: #4e1f00;
+}
+/* REGISTRO.HTML STYLE */
+/* REGISTRO.HTML STYLE */
+/* REGISTRO.HTML STYLE */
+
+/* CARRITO.HTML STYLE */
+/* CARRITO.HTML STYLE */
+/* CARRITO.HTML STYLE */
+.title-carrito {
+  display: flex;
+  gap: 12px;
+}
+.card-carrito {
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+.section-cards-carrito {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* CARRITO.HTML STYLE */
+/* CARRITO.HTML STYLE */
+/* CARRITO.HTML STYLE */
+
+/* MENU.HTML STYLE */
+/* MENU.HTML STYLE */
+/* MENU.HTML STYLE */
+.section-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.div-bajonsalado {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 15px;
+  margin-bottom: 76px;
+}
+.div-bajondulce {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+.h5-bajonsalado {
+  background-color: #74512d;
+  padding: 5px;
+  box-shadow: 0px 0px 20px -5px rgba(241, 217, 43, 0.75);
+  -webkit-box-shadow: 0px 0px 20px -5px rgba(241, 217, 43, 0.75);
+  -moz-box-shadow: 0px 0px 20px -5px rgba(241, 217, 43, 0.75);
+  margin-top: 25px;
+}
+
+.h5-bajondulce {
+  background-color: #74512d;
+  padding: 5px;
+  box-shadow: 0px 0px 20px -5px rgba(241, 217, 43, 0.75);
+  -webkit-box-shadow: 0px 0px 20px -5px rgba(241, 217, 43, 0.75);
+  -moz-box-shadow: 0px 0px 20px -5px rgba(241, 217, 43, 0.75);
+}
+
+.h4-menu {
+  font-size: 25px;
+}
+/* MENU.HTML STYLE */
+/* MENU.HTML STYLE */
+/* MENU.HTML STYLE */
+
+/* LOGIN.HTML */
+.form-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #74512d;
+  margin: 20px 10%;
+  margin-top: 30%;
+  padding: 12px;
+  border-radius: 5%;
+}
+.h1-login {
+  display: flex;
+  justify-content: center;
+}
+
+.button-login {
+  display: flex;
+  position: relative;
+  left: 32%;
+  background-color: #4e1f00;
+  color: #feba17;
+  border: none;
+}
+/* LOGIN.HTML */
+
+/* RESPONSIVE MOBILE*/
 @media (min-width: 360px) and (max-width: 1200px) {
   .section-promos {
     align-items: center;
@@ -67,6 +253,29 @@
   .h5-promos {
     display: flex;
     justify-content: center;
+  }
+  .div-bajonsalado {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 60px;
+    border-bottom: 2px solid black;
+  }
+  .div-bajondulce {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .form-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: blue;
+    margin-top: 18%;
   }
 }
 /* RESPONSIVE MOBILE */
@@ -110,5 +319,31 @@
   .form-register {
     width: 65%;
   }
+  .div-bajonsalado {
+    padding-bottom: 60px;
+    border-bottom: 2px solid black;
+  }
+  .form-login {
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    margin-top: 10%;
+    margin: 100px;
+    margin-left: 15%;
+    padding-right: 127px;
+    margin-right: 279px;
+    padding-left: 57px;
+  }
 }
+
 /* RESPONSIVE DESKTOP */
+
+/* CARRITO-RESPONSIVE TABLET */
+@media (min-width: 830px) {
+  .section-cards-carrito {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+}
+/* CARRITO-RESPONSIVE TABLET */

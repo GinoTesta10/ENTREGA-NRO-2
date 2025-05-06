@@ -17,6 +17,12 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="../styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Rowdies:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Registro</title>
   </head>
   <body>
@@ -47,24 +53,32 @@
           <div class="p-2 flex-shrink-1">
             <div class="dropdown menu-burguer-movile">
               <button
-                class="btn btn-secondary dropdown-toggle"
+                class="btn btn-secondary dropdown-toggle button-menu"
                 type="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               ></button>
-              <ul class="dropdown-menu">
+              <ul class="dropdown-menu drop-menu">
                 <li>
-                  <a class="dropdown-item" href="../html/carrito.html"
-                    >carrito</a
+                  <a
+                    class="dropdown-item items-drop"
+                    href="../html/carrito.html"
+                    >Carrito</a
                   >
-                  <a class="dropdown-item" href="../html/home.html">Inicio</a>
+                  <a class="dropdown-item items-drop" href="../html/home.html"
+                    >Inicio</a
+                  >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="../html/login.html">login</a>
+                  <a class="dropdown-item items-drop" href="../html/login.html"
+                    >Inicio de sesion</a
+                  >
                 </li>
 
                 <li>
-                  <a class="dropdown-item" href="../html/menu.html">menu</a>
+                  <a class="dropdown-item items-drop" href="../html/menu.html"
+                    >Menu</a
+                  >
                 </li>
               </ul>
             </div>
@@ -74,7 +88,7 @@
       <!-- FORMULARIO -->
       <main class="main">
         <h3 class="h3-register">
-          ¡Registrate para obtener promos imbatibles y descuentos frecuente!
+          ¡Registrate para obtener promos imbatibles y descuentos frecuentes!
         </h3>
         <form class="row g-3 form-register">
           <div class="col-md-6">
@@ -107,14 +121,16 @@
           </div>
 
           <div class="col-12">
-            <button type="submit" class="btn btn-primary">Registrarse</button>
+            <button type="submit" class="btn btn-primary button-card-register">
+              Registrarse
+            </button>
           </div>
         </form>
         <!-- FORMULARIO -->
       </main>
       <footer class="footer d-flex justify-content-evenly">
-        <i class="fa-brands fa-square-facebook"></i>
-        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-square-facebook icon-footer"></i>
+        <i class="fa-brands fa-instagram icon-footer"></i>
       </footer>
     </div>
     <script
