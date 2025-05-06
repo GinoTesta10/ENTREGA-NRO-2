@@ -3,48 +3,123 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* MAQUETADO GLOBAL */
+/* MAQUETADO GLOBAL */
+/* MAQUETADO GLOBAL */
 .container-global {
   display: grid;
   grid-column: 1fr 4fr 1fr;
   min-height: 100%;
+  font-family: "Rowdies", sans-serif;
 }
 .header {
-  background-color: aqua;
+  background-color: #74512d;
+  color: #feba17;
+  text-shadow: 5px 2px 3px rgba(14, 12, 12, 0.52);
+  border-bottom: 2px solid#feba17;
 }
 .main {
-  background-color: brown;
+  background-color: #4e1f00;
   min-height: 100vh;
+  color: #f2e2b1;
 }
 .footer {
-  background-color: tomato;
+  background-color: #feba17;
   height: 50px;
   padding-top: 20px;
-  border-top: 2px solid black;
+  border-top: 2px solid #f2e2b1;
   width: 100%;
+  box-shadow: 0px -6px 17px -11px rgba(0, 0, 0, 0.84);
+  -webkit-box-shadow: 0px -6px 17px -11px rgba(0, 0, 0, 0.84);
+  -moz-box-shadow: 0px -6px 17px -11px rgba(0, 0, 0, 0.84);
+}
+
+.icon-footer {
+  color: #4e1f00;
+}
+/* MAQUETADO GLOBAL */
+/* MAQUETADO GLOBAL */
+/* MAQUETADO GLOBAL */
+
+/* HOME.HTML STYLES */
+/* HOME.HTML STYLES */
+/* HOME.HTML STYLES */
+.button-menu {
+  color: #feba17;
+  background-color: #4e1f00;
+  border: none;
+}
+
+.drop-menu {
+  background-color: #74512d;
+}
+.items-drop {
+  color: #feba17;
 }
 
 .card-bio {
   border: none;
-  background-color: brown;
+  background-color: #4e1f00;
+  color: #f2e2b1;
+}
+.h3-bio-home {
+  background-color: #74512d;
+  box-shadow: 0px 0px 20px -3px rgba(241, 217, 43, 0.75);
+  -webkit-box-shadow: 0px 0px 20px -3px rgba(241, 217, 43, 0.75);
+  -moz-box-shadow: 0px 0px 20px -3px rgba(241, 217, 43, 0.75);
 }
 
 .section-bio {
-  border-bottom: 2px solid black;
+  border-bottom: 2px transparent;
+  box-shadow: 0px 10px 11px -10px rgba(0, 0, 0, 0.46);
+  -webkit-box-shadow: 0px 10px 11px -10px rgba(0, 0, 0, 0.46);
+  -moz-box-shadow: 0px 10px 11px -10px rgba(0, 0, 0, 0.46);
 }
 
 .section-promos {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  margin-top: 12px;
+  margin-bottom: 16px;
 }
 
+.card-promos {
+  background-color: #74512d;
+  color: #feba17;
+}
+
+.card-promo-text {
+  color: #f2e2b1;
+}
+
+.button-card-promos {
+  background-color: #4e1f00;
+  color: #feba17;
+  border: none;
+}
+
+.h5-promos {
+  background-color: #74512d;
+  border-style: groove;
+}
+
+/* HOME.HTML STYLES */
+/* HOME.HTML STYLES */
+/* HOME.HTML STYLES */
+
+/* NAVBAR DESKTOP STYLES */
+/* NAVBAR DESKTOP STYLES */
+/* NAVBAR DESKTOP STYLES */
 .nav-desktop {
   display: none;
 }
 .h1-desktop {
   display: none;
 }
-
+/* NAVBAR DESKTOP STYLES */
+/* NAVBAR DESKTOP STYLES */
+/* NAVBAR DESKTOP STYLES */
 /* REGISTRO.HTML STYLE */
 .h3-register {
   display: flex;
