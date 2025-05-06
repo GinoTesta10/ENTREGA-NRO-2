@@ -52,14 +52,6 @@
   color: #feba17;
   border: none;
 }
-
-/* MAQUETADO GLOBAL */
-/* MAQUETADO GLOBAL */
-/* MAQUETADO GLOBAL */
-
-/* HOME.HTML STYLES */
-/* HOME.HTML STYLES */
-/* HOME.HTML STYLES */
 .button-menu {
   color: #feba17;
   background-color: #4e1f00;
@@ -72,6 +64,14 @@
 .items-drop {
   color: #feba17;
 }
+
+/* MAQUETADO GLOBAL */
+/* MAQUETADO GLOBAL */
+/* MAQUETADO GLOBAL */
+
+/* HOME.HTML STYLES */
+/* HOME.HTML STYLES */
+/* HOME.HTML STYLES */
 
 .card-bio {
   border: none;
@@ -127,6 +127,16 @@
 }
 .form-register {
   width: 75%;
+  margin-top: 20px;
+}
+.button-card-register {
+  background-color: #feba17;
+  color: #4e1f00;
+  border: none;
+}
+.button-card-register:hover {
+  background-color: #f2e2b1;
+  color: #4e1f00;
 }
 /* REGISTRO.HTML STYLE */
 /* REGISTRO.HTML STYLE */
