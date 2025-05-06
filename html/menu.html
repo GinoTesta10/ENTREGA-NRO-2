@@ -17,6 +17,12 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="../styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Rowdies:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Menu</title>
   </head>
   <body>
@@ -43,31 +49,39 @@
         <!-- NAV BAR-DESKTOP -->
 
         <div class="d-flex div-header">
-          <div class="p-2 w-100"><h1>Menu</h1></div>
+          <div class="p-2 w-100"><h1>El Bajon</h1></div>
           <div class="p-2 flex-shrink-1">
-            <div class="dropdown menu-burguer-movile">
+            <div class="dropdown">
               <button
-                class="btn btn-secondary dropdown-toggle"
+                class="btn btn-secondary dropdown-toggle button-menu"
                 type="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               ></button>
-              <ul class="dropdown-menu">
+              <ul class="dropdown-menu drop-menu">
                 <li>
-                  <a class="dropdown-item" href="../html/carrito.html"
-                    >carrito</a
+                  <a
+                    class="dropdown-item items-drop"
+                    href="../html/carrito.html"
+                    >Carrito</a
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="../html/login.html">login</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="../html/register.html"
-                    >registro</a
+                  <a class="dropdown-item items-drop" href="../html/login.html"
+                    >Iniciar sesion</a
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="../html/home.html">Inicio</a>
+                  <a
+                    class="dropdown-item items-drop"
+                    href="../html/register.html"
+                    >Registro</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item items-drop" href="../html/home.html"
+                    >Home</a
+                  >
                 </li>
               </ul>
             </div>
@@ -78,91 +92,128 @@
         <h4 class="h4-menu">Conoce nuestras variedades de comidas</h4>
         <section class="section-menu">
           <!-- SECTION BAJON SALADO -->
-          <!-- SECTION BAJON SALADO -->
-          <!-- SECTION BAJON SALADO -->
           <h5 class="h5-bajonsalado">Bajon Salado</h5>
           <section class="div-bajonsalado">
-            <div class="card" style="width: 18rem">
-              <img src="..." class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+            <!-- CARD 1 -->
+            <div class="card cards" style="width: 18rem">
+              <img
+                src="../assets/sanguche-mila.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body card-cuerpo">
+                <h5 class="card-title">Sanguche de milanesa completo</h5>
+                <h3>$9.000</h3>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Milanesa de pollo o carne con lechuga, tomate, jamon, queso y
+                  mayonesa
                 </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="#" class="btn btn-primary button-card">Agregar</a>
               </div>
             </div>
-            <div class="card" style="width: 18rem">
-              <img src="..." class="card-img-top" alt="..." />
+            <!-- CARD 1 -->
+
+            <!-- CARD 2 -->
+            <div class="card cards" style="width: 18rem">
+              <img
+                src="../assets/6654b14601ee7.jpg"
+                class="card-img-top"
+                alt="..."
+              />
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Hamburguesa Triple</h5>
+                <h3>13.000</h3>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  3 medallones de carne con cheddar, panceta y salsa "El Bajon".
                 </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="#" class="btn btn-primary button-card">Agregar</a>
               </div>
             </div>
-            <div class="card" style="width: 18rem">
-              <img src="..." class="card-img-top" alt="..." />
+            <!-- CARD 2 -->
+
+            <!-- CARD 3 -->
+            <div class="card cards" style="width: 18rem">
+              <img
+                src="../assets/pizza-muzza.jpeg"
+                class="card-img-top"
+                alt="..."
+              />
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Pizza de muzzarella</h5>
+                <h3>$10.000</h3>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Pizza grande de muzzarella, con salsa, queso, oregano y
+                  aceitunas.
                 </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="#" class="btn btn-primary button-card">Agregar</a>
               </div>
             </div>
+            <!-- CARD 3 -->
           </section>
-          <!-- SECTION BAJON DULCE -->
-          <!-- SECTION BAJON DULCE -->
           <!-- SECTION BAJON DULCE -->
           <h5 class="h5-bajondulce">Bajon dulce</h5>
           <section class="div-bajondulce">
-            <div class="card" style="width: 18rem">
-              <img src="..." class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+            <!-- CARD 1 -->
+            <div class="card cards" style="width: 18rem">
+              <img
+                src="../assets/Flan-casero-argentino.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body cards card-promos">
+                <h5 class="card-title">Flan Casero</h5>
+                <h3>3.500</h3>
+                <p class="card-text card-text">
+                  Acompañado con dulce de leche, crema o mixto.
                 </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="#" class="btn btn-primary button-card">Agregar</a>
               </div>
             </div>
-            <div class="card" style="width: 18rem">
-              <img src="..." class="card-img-top" alt="..." />
+            <!-- CARD 1 -->
+
+            <!-- CARD 2 -->
+            <div class="card cards" style="width: 18rem">
+              <img
+                src="../assets/budin-de-pan_web.jpg"
+                class="card-img-top"
+                alt="..."
+              />
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                <h5 class="card-title">Budin de pan casero</h5>
+                <h3>$4.000</h3>
+                <p class="card-text card-text">
+                  Acompañado con dulce de leche, crema o mixto.
                 </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="#" class="btn btn-primary button-card">Agregar</a>
               </div>
             </div>
-            <div class="card" style="width: 18rem">
-              <img src="..." class="card-img-top" alt="..." />
+            <!-- CARD 2 -->
+
+            <!-- CARD 3-->
+            <div class="card cards" style="width: 18rem">
+              <img
+                src="../assets/chocotorta.jpg"
+                class="card-img-top"
+                alt="..."
+              />
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                <h5 class="card-title">Chocotorta</h5>
+                <h3>$5.500</h3>
+                <p class="card-text card-text">
+                  Torta compuesta por galletitas de chocolate y mezcla de dulce
+                  de leche con queso crema.
                 </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="#" class="btn btn-primary button-card">Agregar</a>
               </div>
             </div>
+            <!-- CARD 3-->
           </section>
         </section>
         <!-- SECTION BAJON DULCE -->
-        <!-- SECTION BAJON DULCE -->
-        <!-- SECTION BAJON DULCE -->
       </main>
       <footer class="footer d-flex justify-content-evenly">
-        <i class="fa-brands fa-square-facebook"></i>
-        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-square-facebook icon-footer"></i>
+        <i class="fa-brands fa-instagram icon-footer"></i>
       </footer>
     </div>
 
