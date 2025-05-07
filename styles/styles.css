@@ -64,7 +64,6 @@
 .items-drop {
   color: #feba17;
 }
-
 /* MAQUETADO GLOBAL */
 /* MAQUETADO GLOBAL */
 /* MAQUETADO GLOBAL */
@@ -72,7 +71,6 @@
 /* HOME.HTML STYLES */
 /* HOME.HTML STYLES */
 /* HOME.HTML STYLES */
-
 .card-bio {
   border: none;
   background-color: #4e1f00;
@@ -104,7 +102,6 @@
   background-color: #74512d;
   border-style: groove;
 }
-
 /* HOME.HTML STYLES */
 /* HOME.HTML STYLES */
 /* HOME.HTML STYLES */
@@ -148,17 +145,40 @@
 .title-carrito {
   display: flex;
   gap: 12px;
+  align-items: center;
+}
+.h5-carrito {
+  font-size: 51px;
 }
 .card-carrito {
   margin-top: 12px;
   margin-bottom: 20px;
+  border: 2px solid #feba17;
+  display: flex;
+  position: relative;
+  left: 45px;
+  background-color: #fbdb93;
+}
+.elementos-carrito {
+  color: #74512d;
 }
 .section-cards-carrito {
   display: flex;
   flex-direction: column;
-  gap: 8px;
 }
 
+.cards-carrito {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.productos-del-carrito {
+  margin-bottom: 15px;
+}
+.total-carrito {
+  margin-top: 10px;
+  border-top: 2px solid #4e1f00;
+}
 /* CARRITO.HTML STYLE */
 /* CARRITO.HTML STYLE */
 /* CARRITO.HTML STYLE */
